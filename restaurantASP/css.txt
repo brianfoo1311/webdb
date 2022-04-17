@@ -1,0 +1,210 @@
+#header {
+    color: #247BA0;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+    #nav {
+        background-color: #094b3e;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 70px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        z-index: 99;
+        display: block;
+        box-shadow: none;
+    }
+
+
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Maison Neue",sans-serif;
+    }
+
+ul {
+    list-style-type: none;
+}
+
+    li a {
+        color: #F1FAEE;
+        column-width: 5px;
+    }
+
+li {
+    display: inline;
+    padding-left: 2px;
+    column-width: 20px;
+    font-size: 20px;
+    color: #fff;
+    padding-right: 50px;
+}
+
+        li.title {
+            font-size: 35px;
+            color: #fff;
+            padding-right: 400px;
+            padding-left: 60px;
+        }
+
+
+
+
+.video-container {
+    position: relative;
+    padding-bottom: 54.7%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+    .video-container iframe, .video-container object, .video-container embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
+    h1 {
+        color: black;
+        font-weight: bold;
+        font-family: "Gtf Adieut",sans-serif;
+        text-transform: capitalize;
+        font-size: 45px;
+    }
+
+    h2 {
+        color: black;
+        font-size: 29px;
+        font-family: 'Muli', sans-serif;
+        font-weight: unset;
+    }
+
+    p {
+        font-family: 'Bodoni MT';
+        font-size: 20px;
+    }
+
+    .about {
+        text-align: center;
+        margin-top: 0;
+        padding-top: 50px;
+        padding-bottom: 60px;
+        background-color: #DBCAB7;
+        overflow: hidden;
+    }
+
+    .row {
+        margin-left: 300px;
+        margin-right: 300px;
+        background-color: #DBCAB7
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li a:hover {
+        color: #964B00;
+        padding: 1%;
+    }
+
+    .btn:hover, dropdown:hover {
+        color: #247BA0;
+        cursor: pointer;
+    }
+
+    #side {
+        text-align: center;
+        float: right;
+        width: 15%;
+        padding-bottom: 79%;
+        background-color: #F1FAEE;
+    }
+
+    #footer {
+        background-color: #C7EFCF;
+        text-align: center;
+        padding-bottom: 5%;
+        font-size: 20px;
+    }
+
+    #con {
+        border: double;
+        border-color: burlywood;
+    }
+
+    .image-container {
+        position: relative;
+        padding-bottom: 54.7%;
+        padding-top: 0;
+        height: 0;
+        margin-bottom: 0;
+        overflow: hidden;
+    }
+
+        .image-container img, image-container object, .image-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-bottom: 0;
+            width: 100%;
+        }
+
+    .menu {
+        text-align: left;
+        margin-top: 0;
+        padding-top: 0;
+        overflow: hidden;
+    }
+
+    .menu-row {
+        margin-left: 550px;
+        margin-right: 680px;
+    }
+
+    .menu-button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #094b3e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 20px;
+        padding: 20px;
+        width: 180px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        margin-left: 495px;
+    }
+
+        .menu-button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+            .menu-button span:after {
+                content: '\00bb';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+
+        .menu-button:hover span {
+            padding-right: 25px;
+        }
+
+            .menu-button:hover span:after {
+                opacity: 1;
+                right: 0;
+            }

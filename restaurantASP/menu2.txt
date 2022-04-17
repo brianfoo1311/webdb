@@ -1,0 +1,27 @@
+<div class="image-container" frameborder="0" allowfullscreen="">
+           <img src="Content/menu2.jpg" />
+            </div>
+    <div class="menu">
+            <div class="menu-row">
+                <h1 style="text-align:center"><span>Set Lunch for &pound;12</span></h1>
+                <br />
+                <hr />
+                <h2><u><span>Monday</span></u></h2>
+                <br />
+                <p style="font-size:20px" font-family: Quicksand, sans-serif;>Grilled Chicken Chop with ice-cream and soft drinks</p><br />
+                <h2><u><span>Tuesday</span></u></h2>
+                <br />
+                <p style="font-size:20px" font-family: Quicksand, sans-serif;>Spaghetti Carbonara / Spaghetti Pork Bolognese with coffee</p><br />
+                <h2><u><span>Wednesday</span></u></h2>
+                <br />
+                <p style="font-size:20px" font-family: Quicksand, sans-serif;>Fish and Chips with coleslaw</p><br />
+                <h2><u><span>Thursday</span></u></h2>
+                <br />
+                <p style="font-size:20px" font-family: Quicksand, sans-serif;>Salad with salmon</p><br />
+                <h2><u><span>Friday</span></u></h2>
+                <br />
+                <p style="font-size:20px" font-family: Quicksand, sans-serif;>Chicken Buritto with Nachos </p><br />
+                <hr />
+                <a href="menu1.aspx"><button class="menu-button" style="vertical-align:middle"><span>Previous Page </span></button></a>
+                </div>
+        </div>

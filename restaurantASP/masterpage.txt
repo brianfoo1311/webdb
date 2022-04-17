@@ -1,0 +1,41 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="coursework.Main" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>London Restaurant</title>
+    <link href="Content/StyleSheet1.css" type="text/css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="div-overflow">
+    <form id="form1" runat="server">
+        <header>
+            <nav id="nav">
+                <ul>
+                <li class="title"><a href="index1.aspx">London Restaurant</a></li>
+                <li><a href="index1.aspx">Home</a></li>
+                    <li><a href="menu1.aspx">Menus</a></li>
+               
+                <li><a href="contact1.aspx">Contact</a></li>
+                <li><a href="admin1.aspx">Admin</a></li>
+                <li><a href="login1.aspx">Sign Up / Login</a></li>
+
+
+                    <asp:Button ID="btnBookTable" runat="server" BackColor="#996633" BorderStyle="Outset" CssClass="btn" Font-Names="&quot;maison neue&quot;,sans-serif" Font-Size="20px" ForeColor="White" Height="45px" OnClick="Button1_Click" PostBackUrl="~/login1.aspx" Text="Book A Table" />
+               
+            </ul>
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+                </nav>
+        </header>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        </asp:ContentPlaceHolder>
+        </form>
+        </div>
+</body>
+</html>

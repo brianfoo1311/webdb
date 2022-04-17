@@ -1,0 +1,21 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="index1.aspx.cs" Inherits="coursework.WebForm2" %>
+
+    
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <div class="video-container">
+    <iframe src="https://player.vimeo.com/video/584855842?muted=1&amp;autoplay=1&amp;loop=1&amp;title=0&amp;byline=0&amp;portrait=0&amp;background=1" frameborder="0" style="border:0"></iframe>
+            </div>
+    <div class="about">
+        <div class="row">
+    <h1><span>London Restaurant</span></h1>
+            <p><span>We have three branches at Greenwich, London Bridge, and Oxford Circus.&nbsp;</span>
+                <span>We focus our energy on making every products the absolute best they can be without any other distractions.&nbsp;</span>
+                We’re obsessed with refining our techniques to specialise in the simplicity of our mono-product offering in the most fascinating locations in the world.&nbsp;
+                <span>We craft prime burgers and serve wild, fresh Atlantic lobsters.</span>
+                </p>
+              </div>
+    </div>
+</asp:Content>
+
+      

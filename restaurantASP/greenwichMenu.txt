@@ -1,0 +1,191 @@
+<%@ Page Title="" Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="greenwichMenu.aspx.cs" Inherits="coursework.WebForm8" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <style type="text/css">
+        .auto-style1 {
+            text-align: center;
+            font-family: "Roboto Mono", monospace;
+            font-size: xx-large;
+        }
+        .auto-style2 {
+            height: 108px;
+        }
+        .auto-style3 {
+            font-size: x-large;
+        }
+        .auto-style4 {
+            width: 600px;
+        }
+        .auto-style5 {
+            width: 600px;
+            height: 22px;
+        }
+        .auto-style7 {
+            width: 600px;
+            height: 27px;
+        }
+        .auto-style8 {
+            height: 22px;
+        }
+        .auto-style10 {
+            height: 33px;
+        }
+    .auto-style11 {
+        font-size: x-large;
+        font-weight: normal;
+    }
+    .auto-style12 {
+        font-size: x-large;
+        height: 27px;
+    }
+    </style>
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div class="div-overflow">
+    <br />
+    <table style="width:100%;">
+        <tr>
+            <td class="auto-style1">
+
+                <strong class="location">HELLO &amp; WELCOME TO GREENWICH LONDON RESTAURANTS</strong></td>
+        </tr>
+        </table>
+
+    <table style="width:100%;">
+        <tr>
+            <td class="auto-style2" colspan="2">
+                <h1><em>Menu</em></h1>
+                <hr />
+                <h3 class="auto-style3">Starting Off Right</h3>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style4"><span class="menu-item">Pickled Shrimp/ Celery/ Buttermilk/ Trout Roe</span></td>
+            <td><span class="menu-item">14</span></td>
+        </tr>
+        <tr>
+            <td class="auto-style7"><span class="menu-item">Tuna Toast/ Garlic/ Tomato/ Avocado</span></td>
+            <td class="menu-item">10</td>
+        </tr>
+        <tr>
+            <td class="auto-style5"><span class="menu-item">Crispy Hogs Head Boudin/ Dijon/ Frisée</span></td>
+            <td class="menu-item">12</td>
+        </tr>
+        <tr class="menu-item">
+            <td class="auto-style5">Bread + Butter</td>
+            <td class="auto-style8">5</td>
+        </tr>
+        <br />
+        <hr />
+        </table>
+
+    <table style="width:100%;">
+        <tr>
+            <td class="auto-style10" colspan="2">
+                <h3 class="auto-style3">Rice, Noodles &amp; Grains</h3>
+            </td>
+        </tr>
+        <tr class="menu-item">
+            <td class="auto-style4">Spaghetti Pomodoro (Ruddy, buttery, acidic-sweet tangles)</td>
+            <td>14</td>
+        </tr>
+        <tr class="menu-item">
+            <td class="auto-style4">Fried Gulf Oysters with Oyster Gravy over Jasmine rice</td>
+            <td>13</td>
+        </tr>
+        <tr class="menu-item">
+            <td class="auto-style4">Jerk Chicken Rice and Butter Beans with Crispy Habanero</td>
+            <td>10</td>
+        </tr>
+        <tr class="menu-item">
+            <td class="auto-style4">Smoked Ricotta Agnolotti with Mushrooms/ Turnips/ Pickled Onions</td>
+            <td>15</td>
+        </tr>
+        <tr class="menu-item">
+            <td class="auto-style4">Curried Snapper with Sticky Rice, Green Apple &amp; Nasturtium</td>
+            <td>15</td>
+        </tr>
+    </table>
+    <table style="width:100%;">
+        <tr>
+            <td class="auto-style8" colspan="2">
+                <h3 class="auto-style3">Entrees</h3>
+            </td>
+        </tr>
+        <tr class="menu-item">
+            <td class="auto-style4">Duck Breast with Butterbeans, Blood Orange and Scallions</td>
+            <td>22</td>
+        </tr>
+        <tr class="menu-item">
+            <td class="auto-style4">Pork Belly with Juniper and Apples on Wild Rice</td>
+            <td>28</td>
+        </tr>
+        <tr class="menu-item">
+            <td class="auto-style4">Half Chicken with little Gem Lettuce and Dijon Vinaigrette</td>
+            <td>22</td>
+        </tr>
+        <tr class="menu-item">
+            <td class="auto-style4">Mustard Crusted Mahi Mahi with Sauerkraut, Turnips and Kale</td>
+            <td>20</td>
+        </tr>
+    </table>
+    <br />
+    <hr />
+
+
+    <table style="width:100%;">
+        <tr>
+            <td>
+                <h1><em>Set Lunch for &pound;12</em></h1>
+            </td>
+        </tr>
+    </table>
+    <hr />
+
+
+
+<table style="width:100%;">
+    <tr>
+        <td>
+            <h3 class="auto-style11"><strong>Monday</strong></h3>
+        </td>
+    </tr>
+    <tr>
+        <td><span class="menu-item">Grilled Chicken Chop with ice-cream and soft drink</span></td>
+    </tr>
+    <tr>
+        <td>
+            <h3 class="auto-style3">Tuesday</h3>
+        </td>
+    </tr>
+    <tr>
+        <td><span class="menu-item">Spaghetti Carbonara / Spaghetti Pork Bolognese with coffee</span></td>
+    </tr>
+    <tr>
+        <td class="auto-style3">
+            <h3 class="auto-style3">Wednesday</h3>
+        </td>
+    </tr>
+    <tr>
+        <td class="auto-style3"><span class="menu-item">Fish and Chips with coleslaw</span></td>
+    </tr>
+    <tr>
+        <td class="auto-style3">
+            <h3 class="auto-style3">Thursday</h3>
+        </td>
+    </tr>
+    <tr>
+        <td class="auto-style12"><span class="menu-item">Salad with salmon</span></td>
+    </tr>
+    <tr>
+        <td class="auto-style3">
+            <h3 class="auto-style3">Friday</h3>
+        </td>
+    </tr>
+    <tr>
+        <td class="auto-style3"><span class="menu-item">Chicken Buritto with Nachos</span></td>
+    </tr>
+</table>
+
+
+</div>
+</asp:Content>
